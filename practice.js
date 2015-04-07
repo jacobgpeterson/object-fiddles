@@ -346,6 +346,7 @@ var user3 = {
     password: 'burninatingthecountry',
     username: 'trogdorb'
 }
+users.push(user1, user2, user3);
 /*Now you have a very common data structure. Twitter is a good use case.
 It's easy to imagine that your followers list on Twitter is an Array full or objects
 and those objects contain properties about the specific person you follow.*/
